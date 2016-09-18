@@ -2,7 +2,7 @@
 
 Website: http://starlauv.wixsite.com/hackmit2016
 
-Video Demo: https://youtu.be/qkZfuItB52E
+Video Demo (Mac version): https://youtu.be/qkZfuItB52E
 
 A popup app reminding you to rest your eyes every 20 minutes by looking at something 20 ft away for 20 seconds
 
