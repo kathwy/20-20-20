@@ -29,7 +29,8 @@ def sleep():
     os.system("pmset displaysleepnow -t 10; sleep 10; caffeinate -u -t 1") # change the numbers for dim time in seconds
 
 def showimage(i):
-        image_dict = {1:"",2:"" ,3:"" ,4: "",5: "5.gif",6:"" ,7:"" ,8:"" ,9:"" ,10:"" ,11:"", 12: "12.gif"}
+        # you can add more gifs to go along with your messages
+        image_dict = {1:"", 2:"", 3:"", 4:"", 5:"5.gif", 6:"", 7:"", 8:"", 9:"", 10:"", 11:"", 12:"12.gif"}
         pusheen = PhotoImage(file=image_dict[i])
         pusheen_context = Label(image=pusheen)
         pusheen_context.image = pusheen
