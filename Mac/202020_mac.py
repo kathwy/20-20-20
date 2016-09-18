@@ -42,7 +42,6 @@ def main():
     Prompts user to take a rest. If they comply, dim screen for 20 seconds
     If they don't comply, send reminders/messages/fun facts every 10 minutes until they do
     '''
-
     latent_time = 1200 # 1200 sec = 20 min in between rests
     time_between_reminders = 600 # 600 sec = 10 min in between reminders
     prompt_message = "Do you want to take a rest?"
