@@ -3,9 +3,7 @@ A popup app reminding you to rest your eyes every 20 minutes by looking at somet
 
 Both Windows and Mac versions available
 
+The 202020.jar file is the executable for Windows. Make sure that you place the nircmd folder inside this repository in your Program Files directory!
+
 Made at HackMIT 2016
-
 Contributors: Lordique Fok, Jennifer Lauv, Katherine Young
-
-The 202020.jar file is the executable for Windows. 
-Make sure that you place the nircmd folder inside this repository in your Program Files directory!
