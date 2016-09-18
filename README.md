@@ -14,7 +14,7 @@ Important info: The 202020.jar file is the executable for Windows. Make sure tha
 How it works (Windows version): A notification pops up every 20 minutes reminding you about your eye break. Click the eye icon (EYE-CON) to turn off your screen for 20 seconds. After 20 seconds, the screen will automatically turn on again.
 
 MAC:
-Important info: Before running the code, you must first install terminal-notifier. Assuming you have ruby on the Mac, you can easily install terminal-notifier using gem:  
+Important info: Before running the code, you must first install terminal-notifier. Assuming you have Ruby, you can easily install terminal-notifier using gem:  
 
 $ sudo gem install terminal-notifier
 
