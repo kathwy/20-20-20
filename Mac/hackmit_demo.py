@@ -30,7 +30,7 @@ def sleep():
 
 def showimage(i):
         # you can add more gifs to go along with your messages
-        image_dict = {1:"", 2:"", 3:"", 4:"", 5:"5.gif", 6:"", 7:"", 8:"", 9:"", 10:"", 11:"", 12:"12.gif"}
+        image_dict = {1:"", 2:"", 3:"", 4:"", 5:"5.gif", 6:"12.gif", 7:"", 8:"", 9:"", 10:"", 11:"", 12:"12.gif"}
         pusheen = PhotoImage(file=image_dict[i])
         pusheen_context = Label(image=pusheen)
         pusheen_context.image = pusheen
@@ -44,7 +44,7 @@ def main():
     '''
 
     latent_time = 10 # 1200 sec = 20 min in between rests
-    time_between_reminders = 5 # 600 sec = 10 min in between reminders
+    time_between_reminders = 4 # 600 sec = 10 min in between reminders
     prompt_message = "Do you want to take a rest?"
     messages =  {1: "Pusheen would want you to take a break too.",
                  2: "It's been 30 minutes since your last break. Just look away. It's not that hard.",
@@ -52,13 +52,13 @@ def main():
                     "I spy a headache coming your way...",
                  4: "If you go blind, from not resting, you won't be able to enjoy our sassy messages. Wouldn't that be sad?",
                  5: "Bro.",
-                 6: "Maybe you need some factual motivation: Your blink rate slows down when you look at things that are closer to your face (like your laptop)," + 
-                    " exacerbating dry eyes and itchiness. Do you suffer from dry eyes? Now, you know why. Take a break.",
+                 6: "Maybe you need some factual motivation: Your blink rate slows down when you look at things that are closer to your face (like your laptop), " + 
+                    "exacerbating dry eyes and itchiness. Do you suffer from dry eyes? Now, you know why. Take a break.",
                  7: "You know.. it's been...80 minutes since your last break? What are you doing that's so time-sensitive? Or are you just lazy?",
-                 8: "Here's a fact to motivate you, you poor sufferer of eye strain..." + 
+                 8: "Here's a fact to motivate you, you poor sufferer of eye strain... " + 
                     "'A large majority, nearly 70%, of Millennials report symptoms of digital eye strain.' Don't be in that 70%.",
                  9: "Don't go blind. I don't want you to go blind... because that'd mean my efforts were for naught.",
-                 10: "If you don't rest your eyes soon, you may start to notice: blurred vision, double vision, dry red eyes, eye irritation," + 
+                 10: "If you don't rest your eyes soon, you may start to notice: blurred vision, double vision, dry red eyes, eye irritation, " + 
                      "headaches, neck or back pain...and maybe even death...",
                  11: "Dude.",
                  12: "Wow, we've run out of sass to sass you with and that says something: You REALLY need to rest your eyes...",
