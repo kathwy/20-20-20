@@ -11,7 +11,7 @@ How it works: A notification pops up every 20 minutes reminding you about your e
 MAC:
 Important info: Before running the code, you must first install terminal-notifier. Assuming you have ruby on the Mac, you can easily install terminal-notifier using gem:          sudo gem install terminal-notifier
 
-How it works: A notification pops up every 20 minutes reminding you about your eye break. Another window appears to ask if you would like to take a break. If the answer is yes, the screen will turn off for 20 seconds. If the answer is no, a notification and another window will appear in 10 minutes. Pusheen.gifs, xkcd.gifs, and other messages will be displayed for those who say "no."
+How it works: A notification pops up every 20 minutes reminding you about your eye break. Another window appears to ask if you would like to take a break. If the answer is yes, the screen will turn off for 20 seconds. If the answer is no, a notification and another window will appear in 10 minutes. "Motivational" messages will be displayed for those who say "no."
 
 Made at HackMIT 2016
 Contributors: Lordique Fok, Jennifer Lauv, Katherine Young
