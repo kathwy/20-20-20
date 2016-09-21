@@ -21,4 +21,5 @@ $ sudo gem install terminal-notifier
 How it works (Mac version): A notification pops up every 20 minutes reminding you about your eye break. Another window appears to ask if you would like to take a break. If the answer is yes, the screen will turn off for 20 seconds. If the answer is no, a notification and another window will appear in 10 minutes. "Motivational" messages and GIFs will be displayed for those who say "no."
 
 Made at HackMIT 2016
+
 Contributors: Lordique Fok, Jennifer Lauv, Katherine Young
